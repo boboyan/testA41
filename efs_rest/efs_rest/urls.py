@@ -39,6 +39,9 @@ urlpatterns = [
     path('stocks/', views.stock_list),
     url(r'^api/stocks/$', views.stock_list),
     url(r'^api/stocks/(?P<pk>[0-9]+)$', views.getStock),
+    path('dogs/', views.dog_list),
+    url(r'^api/dogs/$', views.dog_list),
+    url(r'^api/dogs/(?P<pk>[0-9]+)$', views.getDog),
     path('register/', views.RegisterView.as_view(), name='auth_register'),
 ]
 

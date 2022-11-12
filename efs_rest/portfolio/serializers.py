@@ -24,6 +24,15 @@ class InvestmentSerializer(serializers.ModelSerializer):
         'pk', 'customer','cust_number', 'category', 'description', 'acquired_value', 'acquired_date', 'recent_value', 'recent_date')
 
 
+
+class DogSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Dog
+        fields = (
+        'name', 'description','size')
+
+
+
 class StockSerializer(serializers.ModelSerializer):
     class Meta:
         model = Stock

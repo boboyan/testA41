@@ -2,7 +2,7 @@ from django.contrib import admin
 
 # Register your models here.
 from django.contrib import admin
-from .models import Customer, Investment, Stock
+from .models import Customer, Investment, Stock, Dog
 
 class CustomerList(admin.ModelAdmin):
     list_display = ('cust_number', 'name', 'city', 'cell_phone')
@@ -25,7 +25,14 @@ class StockList(admin.ModelAdmin):
     ordering = ['customer']
 
 
+class DogList(admin.ModelAdmin):
+    list_display = ('name','description', 'size')
+    list_filter = ('name','description', 'size')
+    search_fields = ('name','description', 'size')
+    ordering = ['customer']
+
 admin.site.register(Customer, CustomerList)
 admin.site.register(Investment, InvestmentList)
 admin.site.register(Stock, StockList)
+admin.site.register(Dog, DogList)
 

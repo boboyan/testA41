@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Customer, Investment, Stock
+from .models import Customer, Investment, Stock, Dog
 from django.contrib.auth.password_validation import validate_password
 from rest_framework import serializers
 from rest_framework.validators import UniqueValidator
@@ -20,6 +20,13 @@ class InvestmentSerializer(serializers.ModelSerializer):
             'pk', 'customer', 'cust_number', 'category', 'description', 'acquired_value', 'acquired_date',
             'recent_value', 'recent_date')
 
+
+
+class DogSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Dog
+        fields = (
+        'name', 'description','size')
 
 class StockSerializer(serializers.ModelSerializer):
     class Meta:

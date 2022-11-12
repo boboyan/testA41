@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7ac195f-8edb-413a-93d6-6ae94f7b9ab5" name="Changes" comment="" />
+    <list default="true" id="f7ac195f-8edb-413a-93d6-6ae94f7b9ab5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/efs_rest/efs_rest/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/efs_rest/efs_rest/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/efs_rest/portfolio/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/efs_rest/portfolio/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/efs_rest/portfolio/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/efs_rest/portfolio/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/efs_rest/portfolio/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/efs_rest/portfolio/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/efs_rest/portfolio/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/efs_rest/portfolio/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/efs_rest/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/efs_rest/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,11 +81,24 @@
       <workItem from="1668127645950" duration="588000" />
       <workItem from="1668128651387" duration="84000" />
       <workItem from="1668128821309" duration="230000" />
-      <workItem from="1668132713821" duration="851000" />
+      <workItem from="1668132713821" duration="1607000" />
+      <workItem from="1668134464169" duration="12000" />
+      <workItem from="1668210456663" duration="2515000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/portfolio/models.py</url>
+          <line>82</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
